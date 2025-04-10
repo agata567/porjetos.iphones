@@ -24,3 +24,16 @@ p{
 body{
  background: color rgb(9, 255, 0);
 }
+
+#inicio {
+  background-color: blue;
+  padding: 20px;
+  border: aqua;
+}
+
+#Iphones {
+background-color: cadetblue;
+padding: 20px;
+border-bottom: blueviolet;
+text-align: center;
+}
