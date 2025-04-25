@@ -1,14 +1,14 @@
 table{
-    width: 70%;
-      border-collapse: collapse;
-    }
-    th,td{
-    border: 2px solid rgb(2, 198, 247);
-      padding: 8px;
-    text-align: center;
-    background-color: rgb(31, 231, 64);
-    }
-    th{
-      background-color: rgb(37, 245, 124);
-      color: darkblue;
-    }
+  width: 70%;
+    border-collapse: collapse;
+  }
+  th,td{
+  border: 2px solid rgb(2, 198, 247);
+    padding: 8px;
+  text-align: center;
+  background-color: rgb(31, 231, 64);
+  }
+  th{
+    background-color: rgb(37, 245, 124);
+    color: darkblue;
+  }t
