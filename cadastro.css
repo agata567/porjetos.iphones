@@ -1,0 +1,59 @@
+
+.form-container {
+max-width: 600px;
+margin: 30px auto;
+background-color: aliceblue;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 12px black (0, 0, 0, 0.1);
+border: 1px solid bisque;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+form input,
+form section,
+form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+form textarea {
+resize: vertical;
+}
+
+form button:hover {
+   background-color: rgb(0, 139, 74);
+}
+
+form button {
+ margin-top:25px;
+    padding: 12px;
+    font-size: 18px;
+     background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: brown;
+}
+
+

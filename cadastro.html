@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head> <!--cabecalho da pagina-->
+<head> <!-- CabeÇalho da pagina -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Iphones</title>
@@ -11,36 +11,36 @@
        <h2>faça sua encomenda</h2>
        <form action="#"  method="post">
 
-    <!--Dados do cliente-->
-<label for="nome"> Nome:</label>
-<input type="text" id="nome" name="nome" required>
+    <!-- Dados do cliente -->
+ <label for="nome"> Nome:</label>
+ <input type="text" id="nome" name="nome" required>
 
-<label for="endereco"> Endereço:</label>
-<input type="text" id="endereco" name="endereco" required>
+ <label for="endereco"> Endereço:</label>
+ <input type="text" id="endereco" name="endereco" required>
+ 
+ <label for="telefone"> Telefone:</label>
+ <input type="tel" id="telefone" name="telefone" required>
 
-<label for="telefone"> Telefone:</label>
-<input type="tel" id="telefone" name="telefone" required>
+ <label for="whatsapp"> whatsapp:</label>
+ <input type="tel" id="whatsapp" name="whatsapp" required>
 
-<label for="whatsapp"> whatsapp:</label>
-<input type="tel" id="whatsapp" name="whatsapp" required>
-
-<!--Tipo de Produto-->
-<label for="Produto"> Qual celular deseja encomendar?</label>
-<select id="Produto" name="Produto" required>
+ <!-- Tipo de Produto -->
+ <label for="Produto"> Qual celular deseja encomendar?</label>
+ <select id="Produto" name="Produto" required>
     <option value="">Selecione uma opção</option>
   <option value="Iphone 11"> Iphone 11</option>
-<option value="Iphone 12">Iphone 12</option>
-<option value="Iphone 13">Iphone 13</option>
-<option value="Iphone 14">Iphone 14</option>
-<option value="Iphone 15">Iphone 15</option>
-<option value="Iphone 16">Iphone 16</option>
-</select>
+ <option value="Iphone 12">Iphone 12</option>
+ <option value="Iphone 13">Iphone 13</option>
+ <option value="Iphone 14">Iphone 14</option>
+ <option value="Iphone 15">Iphone 15</option>
+ <option value="Iphone 16">Iphone 16</option>
+ </select>
 
-<!--Descrição do pedido --> 
-<label for="Descrição">descreva seu pedido aqui :</label> 
-<textarea id="Descrição" name="descrição" rows="4" required></textarea> 
+ <!-- Descrição do pedido --> 
+ <label for="Descrição">descreva seu pedido aqui :</label> 
+ <textarea id="Descrição" name="descrição" rows="4" required></textarea> 
 
-<!--Forma de pagamento-->
+ <!-- Forma de pagamento -->
  <label for="pagamento">forma de pagamento:</label> 
  <select id="pagamento" name="pagamento" required></select> 
  <option value="">selecione uma opção</option>
@@ -48,21 +48,24 @@
   <option value="cartão">cartão de crédito</option>
    <option value="boleto">boleto</option> 
    <option value="dinheiro">dinheiro na entrega</option> 
-</select>
+ </select>
 
-<!--Data e Hora --> 
+ <!-- Data e Hora --> 
  <label for="entrega">Data da entrega:</label> 
-<input type="date" id="data" name="data" required> 
+ <input type="date" id="data" name="data" required> 
 
-<label for="hora"> Horario desejado:</label> 
-<input type="time" id="hora" name="Hora" required> 
+ <label for="hora"> Horario desejado:</label> 
+ <input type="time" id="hora" name="Hora" required> 
 
-<!--Entrega ou retirada-->
-<label for="entrega">como deseja receber:</label>
-<select id="entrega" name=""
+ <!-- Entrega ou retirada -->
+ <label for="entrega">como deseja receber:</label>
+ <select id="entrega" name="entrega" required>
+ <option value=""> Selecione uma opção</option>
+ <option value="entrega">Entrega</option>
+ <option value="retirada">Retirada</option>
+ </select>
 
-
-
-
+  <!-- Botão de envio -->
+   <button type="submit">Enviar Pedido</button>
 
     </form
