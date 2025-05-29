@@ -1,6 +1,6 @@
 
 h1{
-  color: darkblue;
+  color: rgb(42, 42, 204);
 }
 
 p{
@@ -15,7 +15,7 @@ body{
 #inicio {
   background-color: blue;
   padding: 20px;
-  border-bottom: 2px solid #00FFFF;
+  border-bottom: 2px solid #00ff6a;
   text-align: center;
 }
 
